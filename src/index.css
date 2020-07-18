@@ -1,0 +1,50 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 60px;
+  color: firebrick;
+}
+
+input {
+  padding: .3rem;
+  width: 300px;
+  color: firebrick;  
+}
+
+input::placeholder {
+  color: lightcoral;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: .5rem;
+  box-shadow: 1px 3px 5px;
+  color: firebrick;
+  display: block;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card p{
+  padding: 5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
